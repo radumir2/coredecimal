@@ -9,11 +9,15 @@ Features
 
 1. Sistem de fisiere structurat pe 3-5 nivele tinut pe github
 
-Nivel 1: Area (analogie: raf vertical)
-Nivel 2: Category (analogie: cutie)
-Nivel 3: Id (max 100) de forma: AC.II (A - area, C - categoria, II - nr id-ului). (analogie: un dosar/biblioraft din cutie)
-Nivel 4 - un item intr-un Id, care poate fi folder
-Nivel 5 - fisier intr-un folder de la nivelul 4
+* Nivel 1: Area (analogie: raf vertical)
+
+* Nivel 2: Category (analogie: cutie)
+
+* Nivel 3: Id (max 100) de forma: AC.II (A - area, C - categoria, II - nr id-ului). (analogie: un dosar/biblioraft din cutie)
+
+* Nivel 4 - un item intr-un Id, care poate fi folder
+
+* Nivel 5 - fisier intr-un folder de la nivelul 4
 
 vezi https://johnnydecimal.com/ 
 
