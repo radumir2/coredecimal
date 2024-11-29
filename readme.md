@@ -1,5 +1,5 @@
-Eliot.Decimal
-=============
+CoreDecimal
+===========
 
 Obiectiv: sa avem un sistem care sa ne ajute sa navigam in "haos"-ul informational in care traim
 pentru a lucra eficient.
@@ -18,7 +18,7 @@ Nivel 5 - fisier intr-un folder de la nivelul 4
 vezi https://johnnydecimal.com/ 
 
 Tema:
-1a. Identificat areas pentru sistemul Eliot
+1a. Identificat areas pentru sistemul CoreDecimal
 
 1b. Pentru fieare area de la 1a identificat categoriile
 
@@ -30,7 +30,7 @@ Informatia pe care o primim e un mix de informatie formala (pusa in forme bine s
 url-uri, query-uri, call-uri API cu parametrii si rezultate) si informala - descrierea 
 problemei in limbaj uman.
 
-Informatia din Eliot.Decimal va avea un grad de formalizare mai mare, va fi "digerata".
+Informatia din CoreDecimal.Decimal va avea un grad de formalizare mai mare, va fi "digerata".
 
 Tema: 
 2a1. Scos de la naftalina X probleme concrete (bine ar fi 10, dar cat se poate) cu tot cu pasii
@@ -68,27 +68,29 @@ facut pentru rezolvarea lor. Bine ar fi sa fie cat mai consistente
 
 5. Stabilit reguli de "metabolizare" a informatiei
 
-La nivelul lui Eliot.Decimal sunt 3 nivele pentru administrarea informatiei.
+La nivelul lui CoreDecimal.Decimal sunt 3 nivele pentru administrarea informatiei:
 
-00 - la nivel general
-A0.0 - la nivel de arie
-AC.0 - la nivel de categorie
+* 00 - la nivel general
+
+* A0.0 - la nivel de arie
+
+* AC.0 - la nivel de categorie
 
 Fiecare nivel are 
-0 - index
-1 - inbox
-2 - notes
-3 - todos
-4 - bookmarks
-5 - templates
-6,7 - unused
-8 - sameday
-9 - archive
+* 0 - index
+* 1 - inbox
+* 2 - notes
+* 3 - todos
+* 4 - bookmarks
+* 5 - templates
+* 6,7 - unused
+* 8 - sameday
+* 9 - archive
 
 Teme
-5a. Validam ce ni se pare potrivit la Eliot. 
+5a. Validam ce ni se pare potrivit la CoreDecimal. 
 Daca tu ai face sistemul ce ai pastra de mai sus si ce ai adauga?
 
 5b. Definit template-uri pt elementele de DSL identificate la 2
 
-5c. Definit reguli de lucru pentru inbox, todo, template, archive, index
+5c. Definit reguli de lucru fezabile - cu cat mai putin overhead, pentru inbox, todo, template, archive, index.
